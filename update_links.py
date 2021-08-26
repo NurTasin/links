@@ -8,7 +8,6 @@ import requests
 import re
 import html
 import json
-import time
 import datetime
 def main():
     with open("./movies.json","r") as handle:
