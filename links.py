@@ -66,7 +66,7 @@ if __name__ == "__main__":
             print("Use ",pythoncmd," -u <file_name> to update your list.")
     elif arguments.update:
         print("Updating Movie list.....")
-        os.system(pythoncmd+" ./update_links.py")
+        os.system(pythoncmd+" ./update_links_fast.py")
         print("Movie list is updated.")
         print("Total Movie:",check_file())
     elif arguments.list:
