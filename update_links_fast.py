@@ -31,7 +31,7 @@ def main():
                     items[html.unescape(reobj.group(2))]=f"https://songslyric.site/links/{i}"
                 elif res.status_code==404:
                     gap+=1
-                    if gap>=100:
+                    if gap>=200:
                         break
             else:
                 print("[Cached]  "+movies[links.index("https://songslyric.site/links/"+str(i))]+" -> "+"https://songslyric.site/links/"+str(i))
