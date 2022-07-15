@@ -46,7 +46,7 @@ def main():
         except AttributeError:
             pass
     print("Saving Progress....")
-    with open("./movies.json","w+") as handle:
+    with open("./gdtot.json","w+") as handle:
         json.dump(items,handle,indent=2)
     print("Saved Successfully....")
     print("Exiting...")
